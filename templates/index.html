@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="SnapClass - Making Attendance Faster Using AI. Next-generation classroom management with Face Recognition and Voice Biometrics.">
-    <title>SnapClass - Making Attendance Faster Using AI</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v='3.0') }}">
-    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/app_logo.png', v='3.0') }}">
+    <meta name="description" content="SnapClass - AI-Powered Automated Classroom Attendance System. Real-time FaceID and Voice Biometrics.">
+    <title>SnapClass - AI-Powered Automated Classroom Attendance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css', v='4.0') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='img/app_logo.png', v='4.0') }}">
 </head>
 
 <body>
     <!-- Top Navigation Bar -->
     <nav class="navbar">
         <div class="logo">
-            <img src="{{ url_for('static', filename='img/app_logo.png', v='3.0') }}" alt="SnapClass Logo" class="logo-img">
-            <div class="logo-text">SnapClass</div>
+            <img src="{{ url_for('static', filename='img/app_logo.png', v='4.0') }}" alt="SnapClass Logo" class="logo-img">
+            <div class="logo-text">SNAPCLASS</div>
         </div>
         <div class="nav-links">
             <a href="#">Home</a>
             <a href="#features">Features</a>
-            <a href="#teacher-workflow">Teacher Flow</a>
-            <a href="#student-workflow">Student Flow</a>
+            <a href="#teacher-portal">Teacher Portal</a>
+            <a href="#student-portal">Student Portal</a>
             <a href="#tech">Tech Stack</a>
         </div>
         <div class="nav-cta">
@@ -38,14 +38,14 @@
     <header class="hero">
         <div class="hero-container">
             <div class="badge">
-                <span class="badge-dot"></span> SnapClass Streamlit AI App
+                <span class="badge-dot"></span> ✨ AI-Powered Automated Classroom Attendance
             </div>
 
-            <h1>Making Attendance<br><span>Faster Using AI</span></h1>
+            <h1>Automated Classroom<br><span>Attendance System</span></h1>
 
             <p class="hero-description">
-                Eliminate manual roll calls with real-time facial recognition and voice biometrics. 
-                Experience instant classroom attendance powered by artificial intelligence.
+                SnapClass simplifies roll calls for educators and students with real-time FaceID authentication, 
+                photo verification, and secure portal access.
             </p>
 
             <div class="hero-actions">
@@ -55,13 +55,13 @@
                         <path d="M5 12h14M12 5l7 7-7 7" />
                     </svg>
                 </a>
-                <a href="#features" class="btn-secondary">Explore Features</a>
+                <a href="#teacher-portal" class="btn-secondary">View Portals</a>
             </div>
 
-            <!-- Live Streamlit App Screenshot Showcase -->
+            <!-- Hero Portal Selection Screenshot Showcase -->
             <div class="hero-preview-wrapper">
                 <div class="hero-preview-card">
-                    <img src="{{ url_for('static', filename='img/demo/snap-landing.png', v='3.0') }}" alt="SnapClass Streamlit App Interface" class="preview-img">
+                    <img src="{{ url_for('static', filename='img/demo/snap-portals-detail.png', v='4.0') }}" alt="SnapClass Student & Teacher Portals" class="preview-img">
                 </div>
             </div>
         </div>
@@ -71,100 +71,100 @@
     <section id="features" class="features">
         <div class="section-header">
             <span class="section-tag">— Smart Biometrics —</span>
-            <h2>How SnapClass Speeds Up Attendance</h2>
-            <p>Built directly into your Streamlit workflow for seamless teacher and student interactions.</p>
+            <h2>Innovative Attendance Features</h2>
+            <p>Designed for instant, accurate student identification and instructor management.</p>
         </div>
 
         <div class="feature-grid">
             <div class="feature-card">
-                <div class="f-icon-box">📸</div>
-                <h3>AI Photo Face ID</h3>
-                <p>Teachers take a single classroom photo. Neural networks instantly detect and identify all student faces in seconds.</p>
+                <div class="f-icon-box">📷</div>
+                <h3>Camera FaceID</h3>
+                <p>Instant student login and verification using real-time camera face position framing.</p>
             </div>
             <div class="feature-card">
-                <div class="f-icon-box">🎙️</div>
-                <h3>Sequential Voice ID</h3>
-                <p>Students say "Present" one by one. Resemblyzer audio AI matches their voice embeddings against registered voice profiles.</p>
+                <div class="f-icon-box">📁</div>
+                <h3>Photo Upload</h3>
+                <p>Upload profile photo image files (JPG, PNG) for automated face matching and registration.</p>
             </div>
             <div class="feature-card">
-                <div class="f-icon-box">📱</div>
-                <h3>QR Code Roster Sync</h3>
-                <p>Generate course QR codes for instant student registration and automated roster population without manual entry.</p>
+                <div class="f-icon-box">🔑</div>
+                <h3>Instructor Control</h3>
+                <p>Secure password login portal for teachers to manage subjects and scan classroom attendance.</p>
             </div>
         </div>
     </section>
 
-    <!-- Teacher Workflow Section -->
-    <section id="teacher-workflow" class="teacher-flow">
+    <!-- Teacher Portal Section -->
+    <section id="teacher-portal" class="teacher-flow">
         <div class="flow-container">
             <div class="section-header">
-                <span class="section-tag">— Streamlit Portal —</span>
-                <h2>Teacher Experience</h2>
-                <p>Effortless classroom management from session creation to report export.</p>
+                <span class="section-tag">— Instructor Access —</span>
+                <h2>Teacher Portal & Control</h2>
+                <p>Scan classroom attendance and manage subjects with password-protected instructor login.</p>
             </div>
 
             <div class="flow-steps-wrapper">
                 <div class="flow-step">
                     <div class="flow-content">
-                        <span class="step-badge">Step 01</span>
-                        <h3>Course & Session Setup</h3>
-                        <p>Create a course session in Streamlit, generate a unique student QR join code, and view live active roster counts.</p>
+                        <span class="step-badge">Portal 01</span>
+                        <h3>Instructor Control Card</h3>
+                        <p>Access subject rosters, view live attendance statistics, and control class sessions securely.</p>
                     </div>
                     <div class="flow-image">
-                        <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-1-login.png', v='3.0') }}" alt="Course Setup">
+                        <img src="{{ url_for('static', filename='img/demo/snap-hero-portals.png', v='4.0') }}" alt="Instructor Control Card">
                     </div>
                 </div>
 
                 <div class="flow-step flow-reverse">
                     <div class="flow-content">
-                        <span class="step-badge">Step 02</span>
-                        <h3>Run Biometric Scan</h3>
-                        <p>Upload classroom photos or trigger voice recognition mode for rapid, automated roll call execution.</p>
+                        <span class="step-badge">Portal 02</span>
+                        <h3>Teacher Password Login</h3>
+                        <p>Sign in using encrypted username and password credentials to access teacher administrative controls.</p>
                     </div>
                     <div class="flow-image">
-                        <img src="{{ url_for('static', filename='img/demo/snap-teacher-flow-5.1-voice-attendance.png', v='3.0') }}" alt="Run Biometric Scan">
+                        <img src="{{ url_for('static', filename='img/demo/snap-teacher-login.png', v='4.0') }}" alt="Teacher Password Login">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Student Workflow Section -->
-    <section id="student-workflow" class="student-flow">
+    <!-- Student Portal Section -->
+    <section id="student-portal" class="student-flow">
         <div class="flow-container">
             <div class="section-header">
-                <span class="section-tag">— Student Onboarding —</span>
-                <h2>Student Experience</h2>
-                <p>Quick one-time registration and transparent attendance visibility.</p>
+                <span class="section-tag">— Student Access —</span>
+                <h2>Student Portal & Verification</h2>
+                <p>Mark attendance instantly, upload profile photos, and view enrolled courses.</p>
             </div>
 
             <div class="flow-steps-wrapper">
                 <div class="flow-step">
                     <div class="flow-content">
-                        <span class="step-badge">Phase 01</span>
-                        <h3>Face & Voice Profile Setup</h3>
-                        <p>Scan course QR code, capture facial biometrics, and record voice prompt to register embeddings into Supabase cloud database.</p>
+                        <span class="step-badge">Mode 01</span>
+                        <h3>Camera FaceID Verification</h3>
+                        <p>Position your face in the center of the live camera frame for instant FaceID recognition.</p>
                     </div>
                     <div class="flow-image">
-                        <img src="{{ url_for('static', filename='img/demo/snap-student-flow-2-enroll.png', v='3.0') }}" alt="Student Biometric Setup">
+                        <img src="{{ url_for('static', filename='img/demo/snap-student-faceid.png', v='4.0') }}" alt="Camera FaceID Verification">
                     </div>
                 </div>
 
                 <div class="flow-step flow-reverse">
                     <div class="flow-content">
-                        <span class="step-badge">Phase 02</span>
-                        <h3>Attendance Analytics Hub</h3>
-                        <p>Access subject attendance history, verify present/absent status logs, and track overall course compliance.</p>
+                        <span class="step-badge">Mode 02</span>
+                        <h3>Profile Photo Upload</h3>
+                        <p>Upload high-resolution profile photo image files to verify attendance or update profile biometrics.</p>
                     </div>
                     <div class="flow-image">
-                        <img src="{{ url_for('static', filename='img/demo/snap-landing.png', v='3.0') }}" alt="Student Analytics">
+                        <img src="{{ url_for('static', filename='img/demo/snap-student-upload.png', v='4.0') }}" alt="Profile Photo Upload">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Technology Architecture -->
+    <!-- Tech Stack Section -->
     <section id="tech" class="tech-stack-section">
         <div class="tech-container">
             <div class="section-header light">
@@ -176,25 +176,25 @@
                 <div class="tech-card">
                     <div class="t-icon">⚡</div>
                     <h4>Streamlit & Flask</h4>
-                    <p>Interactive web interface hosted on Streamlit Cloud & Flask backend.</p>
+                    <p>Reactive Streamlit app connected to Flask landing server.</p>
                     <span class="tech-tag">Platform</span>
                 </div>
                 <div class="tech-card">
-                    <div class="t-icon">👁️</div>
-                    <h4>FaceRecognition & Dlib</h4>
-                    <p>High-precision 128D facial feature embedding extraction.</p>
+                    <div class="t-icon">📷</div>
+                    <h4>FaceID Verification</h4>
+                    <p>Real-time facial detection and photo upload matching.</p>
                     <span class="tech-tag">Vision AI</span>
                 </div>
                 <div class="tech-card">
-                    <div class="t-icon">🎙️</div>
-                    <h4>Resemblyzer & Librosa</h4>
-                    <p>Speaker verification with deep neural audio embeddings.</p>
-                    <span class="tech-tag">Audio AI</span>
+                    <div class="t-icon">🔐</div>
+                    <h4>Secure Portals</h4>
+                    <p>Dual Student Access and Instructor Control login systems.</p>
+                    <span class="tech-tag">Security</span>
                 </div>
                 <div class="tech-card">
                     <div class="t-icon">☁️</div>
-                    <h4>Supabase Database</h4>
-                    <p>PostgreSQL real-time database storing biometric vectors securely.</p>
+                    <h4>Cloud Database</h4>
+                    <p>PostgreSQL real-time database storing attendance records.</p>
                     <span class="tech-tag">Cloud</span>
                 </div>
             </div>
@@ -204,8 +204,8 @@
     <!-- Bottom Call to Action Banner -->
     <section class="cta-banner">
         <div class="cta-content">
-            <h2>Ready to Make Attendance Faster?</h2>
-            <p>Launch your Streamlit AI Attendance System now and transform classroom roll call.</p>
+            <h2>Ready to Mark Attendance Instantly?</h2>
+            <p>Experience automated classroom attendance with SnapClass.</p>
             <a href="https://aiattendancesystemgit-h.streamlit.app/" class="btn-white" target="_blank" rel="noopener">
                 Launch Streamlit App Now
             </a>
@@ -217,29 +217,28 @@
         <div class="footer-grid">
             <div class="footer-brand">
                 <div class="logo">
-                    <img src="{{ url_for('static', filename='img/app_logo.png', v='3.0') }}" alt="SnapClass Logo" class="logo-img">
-                    <div class="logo-text">SnapClass</div>
+                    <img src="{{ url_for('static', filename='img/app_logo.png', v='4.0') }}" alt="SnapClass Logo" class="logo-img">
+                    <div class="logo-text">SNAPCLASS</div>
                 </div>
-                <p>SnapClass — Making Attendance Faster Using AI. Powered by Streamlit, OpenCV, Resemblyzer, and Supabase.</p>
+                <p>SnapClass — Smart AI Attendance Platform. Powered by Streamlit, FaceID, and Flask.</p>
             </div>
 
             <div class="footer-links">
                 <h4>Navigation</h4>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#features">AI Features</a></li>
-                    <li><a href="#teacher-workflow">Teacher Flow</a></li>
-                    <li><a href="#student-workflow">Student Portal</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#teacher-portal">Teacher Portal</a></li>
+                    <li><a href="#student-portal">Student Portal</a></li>
                 </ul>
             </div>
 
             <div class="footer-links">
-                <h4>Streamlit App</h4>
+                <h4>Application</h4>
                 <ul>
                     <li><a href="https://aiattendancesystemgit-h.streamlit.app/" target="_blank" rel="noopener">Open Streamlit App</a></li>
-                    <li><a href="#tech">Face Recognition</a></li>
-                    <li><a href="#tech">Voice Verification</a></li>
-                    <li><a href="#tech">Cloud Database</a></li>
+                    <li><a href="#teacher-portal">Instructor Control</a></li>
+                    <li><a href="#student-portal">Student Access</a></li>
                 </ul>
             </div>
 
@@ -254,11 +253,11 @@
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2026 SnapClass. Making Attendance Faster Using AI.</p>
+            <p>&copy; 2026 SnapClass. AI-Powered Automated Classroom Attendance.</p>
         </div>
     </footer>
 
-    <script src="{{ url_for('static', filename='js/script.js', v='3.0') }}"></script>
+    <script src="{{ url_for('static', filename='js/script.js', v='4.0') }}"></script>
 </body>
 
 </html>
